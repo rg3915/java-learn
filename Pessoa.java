@@ -6,7 +6,6 @@ public class Pessoa {
 
     // Construtor
     Pessoa() {}
-
     Pessoa(String nome, int idade, float peso, boolean filhos) {
         this.nome = nome;
         this.idade = idade;
