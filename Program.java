@@ -13,6 +13,12 @@ public class Program {
 
         int res = soma(20, 2);
         System.out.println(res);
+
+        Funcionario funcionario = new Funcionario();
+
+        funcionario.setSalario(3000.14F);
+
+        System.out.println(funcionario.getTipoSalario());
     }
 
     private int soma (int a, int b) {
