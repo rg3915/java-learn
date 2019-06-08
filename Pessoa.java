@@ -13,6 +13,11 @@ public class Pessoa {
         this.filhos = filhos;
     }
 
+    @Override
+    public String toString() {
+        return "Nome: " + this.nome + "\nIdade: " + this.idade;
+    }
+
     public String getNome() {
         return nome;
     }

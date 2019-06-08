@@ -20,9 +20,10 @@ public class Program {
 
         System.out.println(funcionario.getTipoSalario());
 
-        Pessoa pessoa2 = new Pessoa("Regis", 40, 88, true);
+        Pessoa pessoa2 = new Pessoa("Regis", 40, 89, true);
 
         System.out.println("O peso é " + pessoa2.getPeso());
+        System.out.println(pessoa2);
     }
 
     private int soma (int a, int b) {
