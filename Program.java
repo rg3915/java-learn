@@ -19,6 +19,10 @@ public class Program {
         funcionario.setSalario(3000.14F);
 
         System.out.println(funcionario.getTipoSalario());
+
+        Pessoa pessoa2 = new Pessoa("Regis", 40, 88, true);
+
+        System.out.println("O peso é " + pessoa2.getPeso());
     }
 
     private int soma (int a, int b) {

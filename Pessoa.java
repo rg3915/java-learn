@@ -4,6 +4,16 @@ public class Pessoa {
     private float peso;
     private boolean filhos;
 
+    // Construtor
+    Pessoa() {}
+
+    Pessoa(String nome, int idade, float peso, boolean filhos) {
+        this.nome = nome;
+        this.idade = idade;
+        this.peso = peso;
+        this.filhos = filhos;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -35,4 +45,5 @@ public class Pessoa {
     public void setFilhos(boolean filhos) {
         this.filhos = filhos;
     }
+
 }
